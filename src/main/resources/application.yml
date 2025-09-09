@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:spring-boot
+    driverClassName: org.h2.Driver
+    username: aniket
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+jwt:
+  secret: FGW390@#7&Ounjkebu!#%%GHOPQasx&Q
+  expiration: 3600000
